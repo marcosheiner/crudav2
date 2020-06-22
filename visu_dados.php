@@ -30,6 +30,7 @@
                                         <thead>
                                             <tr>
                                                 <th scope="col" style="text-align: center;"><i class="fas fa-user icon"></i></th>
+                                                <th scope="col">ID</th>
                                                 <th scope="col">Nome</th>
                                                 <th scope="col">Conta Corrente</th>
                                                 <th scope="col">Agência</th>
@@ -74,13 +75,14 @@
                                                     //echo $v;
                                                     echo '<tr>';
                                                         echo '<td style="text-align: center;"><i class="fas fa-money-check-alt icon"></i></td>';
+                                                        echo '<td>' .$v['id']. '</td>';
                                                         echo '<td>' .$v['usuario']. '</td>';
                                                         echo '<td>' .$v['corrente']. '</td>';
                                                         echo '<td>' .$v['agencia']. '</td>';
                                                         echo '<td>' .$v['banco']. '</td>';
                                                         echo '<td>' .$v['cidade'].'</td>';
                                                         echo '<td>' .$v['estado'].'</td>';
-                                                        echo '<td style="text-align: center;"> <a href=""><i class="fas fa-edit"></i></a> <a href=""><i class="fas fa-folder"></i></a> <a href=""><i class="fas fa-trash"></i></a></td>';
+                                                        echo '<td style="text-align: center;"> <a href=""><i class="fas fa-edit"></i></a> <a href=""><i class="fas fa-folder"></i></a> <a  href="delete_dados.php?id='.$v['id'].'"><i class="fas fa-trash"></i></a></td>';
                                                     echo '</tr>';
                                                 }
                                                 } catch(PDOException $e) {

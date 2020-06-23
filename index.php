@@ -25,27 +25,33 @@
 
                                             <div class="form-group row">
                                                 <div class="col-sm-6 mb-3 mb-sm-0">
+                                                    <label for="">Nome Completo</label>
                                                     <input type="text" class="form-control form-control-user" id="name_usuario" name="name_usuario" placeholder="Nome Completo" require>
                                                 </div>
                                                 <div class="col-sm-6">
+                                                    <label for="">Conta Corrente [6 - 10 Números]</label>
                                                     <input type="text" class="form-control form-control-user" id="number_corrente" name="number_corrente" placeholder="Conta Corrente" require>
                                                 </div>
                                             </div>
 
                                             <div class="form-group row">
                                                 <div class="col-sm-6 mb-3 mb-sm-0">
-                                                    <input type="number" class="form-control form-control-user" id="number_agencia" name="number_agencia" placeholder="Agência" require>
+                                                    <label for="">Agência [4 Números]</label>
+                                                    <input type="number" class="form-control form-control-user" id="number_agencia" name="number_agencia" placeholder="Ex: 1234" require>
                                                 </div>
                                                 <div class="col-sm-6">
+                                                    <label for="">Banco</label>
                                                     <input type="text" class="form-control form-control-user" id="name_banco" name="name_banco" placeholder="Banco" require>
                                                 </div>
                                             </div>
 
                                             <div class="form-group row">
                                                 <div class="col-sm-6 mb-3 mb-sm-0">
+                                                    <label for="">Cidade</label>
                                                     <input type="text" class="form-control form-control-user" id="name_cidade" name="name_cidade" placeholder="Cidade" require>
                                                 </div>
                                                 <div class="col-sm-6">
+                                                    <label for="">Estado</label>
                                                     <input type="text" class="form-control form-control-user" id="name_estado" name="name_estado" placeholder="Estado" require>
                                                 </div>
                                             </div>

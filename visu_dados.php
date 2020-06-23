@@ -64,7 +64,7 @@
                                                         echo '<td>' .$v['banco']. '</td>';
                                                         echo '<td>' .$v['cidade'].'</td>';
                                                         echo '<td>' .$v['estado'].'</td>';
-                                                        echo '<td style="text-align: center;"> <a href="edit_dados.php?id='.$v['id'].'"><i class="fas fa-edit"></i></a> <a href=""><i class="fas fa-folder"></i></a> <a  href="delete_dados.php?id='.$v['id'].'"><i class="fas fa-trash"></i></a></td>';
+                                                        echo '<td style="text-align: center;"> <a href="edit_dados.php?id='.$v['id'].'"><i class="fas fa-edit"></i></a> <a href="view_dados.php?id='.$v['id'].'"><i class="fas fa-folder"></i></a> <a  href="delete_dados.php?id='.$v['id'].'"><i class="fas fa-trash"></i></a></td>';
                                                     echo '</tr>';
                                                 }
                                                 } catch(PDOException $e) {

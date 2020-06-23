@@ -6,8 +6,6 @@ $conn = connectBd();
 try {
         
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-    // prepare sql and bind parameters
     $stmt = $conn->prepare("DELETE FROM dados WHERE id=:id");
     $stmt->bindParam(':id', $id);
     

@@ -43,24 +43,6 @@
                                         <tbody>
                                         <?php
                                     
-                                                /*class TableRows extends RecursiveIteratorIterator {
-                                                function __construct($it) {
-                                                    parent::__construct($it, self::LEAVES_ONLY);
-                                                }
-
-                                                function current() {
-                                                    return "<td>" . parent::current(). "</td>";
-                                                }
-
-                                                function beginChildren() {
-                                                    echo "<tr>";
-                                                }
-
-                                                function endChildren() {
-                                                    echo "</tr>" . "\n";
-                                                }
-                                                }*/
-
                                                 include "conexao.php";
                                                 $conn = connectBd();
 
@@ -82,7 +64,7 @@
                                                         echo '<td>' .$v['banco']. '</td>';
                                                         echo '<td>' .$v['cidade'].'</td>';
                                                         echo '<td>' .$v['estado'].'</td>';
-                                                        echo '<td style="text-align: center;"> <a href=""><i class="fas fa-edit"></i></a> <a href=""><i class="fas fa-folder"></i></a> <a  href="delete_dados.php?id='.$v['id'].'"><i class="fas fa-trash"></i></a></td>';
+                                                        echo '<td style="text-align: center;"> <a href="edit_dados.php?id='.$v['id'].'"><i class="fas fa-edit"></i></a> <a href=""><i class="fas fa-folder"></i></a> <a  href="delete_dados.php?id='.$v['id'].'"><i class="fas fa-trash"></i></a></td>';
                                                     echo '</tr>';
                                                 }
                                                 } catch(PDOException $e) {

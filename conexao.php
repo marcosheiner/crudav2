@@ -1,9 +1,9 @@
 <?php
     function connectBd(){
-        $servername     = "localhost";
-        $username       = "root";
-        $password       = "";
-        $dbname         = "banco_projeto";
+        $servername     = "sql309.epizy.com";
+        $username       = "epiz_26089411";
+        $password       = "irhmQRGL1V";
+        $dbname         = "epiz_26089411_banco_projeto";
 
         try {
             $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);

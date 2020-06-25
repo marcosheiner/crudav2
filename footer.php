@@ -2,7 +2,7 @@
             <footer class="sticky-footer bg-white shadow">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Marcos Heiner &copy; GitHub <a href="https://github.com/marcosheiner"><i class="fab fa-github"></i></a></span>
+                        <span>Marcos Heiner &copy; GitHub <a href="https://github.com/marcosheiner/crudav2" target="_blank"><i class="fab fa-github"></i></a></span>
                     </div>
                 </div>
             </footer>

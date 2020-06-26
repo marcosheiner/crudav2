@@ -33,5 +33,5 @@
     
     $conn = null;
 
-    header('Location: visu_dados.php');
+    header('Location: visualizar_dados.php');
 ?>

@@ -1,6 +1,6 @@
 <?php
     function connectBd(){
-        $servername     = "";
+        $servername     = "localhost";
         $username       = "root";
         $password       = "";
         $dbname         = "banco_projeto";
